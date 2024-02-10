@@ -70,7 +70,7 @@ function App() {
 
   const handleCalculate = ()=>{
     if(principle && rate && year){
-      setInterest(principle*interest*year/100)
+      setInterest(principle*rate*year/100)
     }else{
       alert("Form cant be empty")
     }
