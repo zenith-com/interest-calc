@@ -86,7 +86,7 @@ function App() {
         <p>Calculate Your Interest </p>
         <div className='d-flex justify-content-centre align-items-center bg-warning p-3 rounded shadow
      flex-column text-light'>
-          <h1>₹ {0}</h1>
+          <h1>₹ {interest}</h1>
           <p className='fw-bolder'>Total Simple Interest</p>
         </div>
         <form action="" className='mt-5'>
